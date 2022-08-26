@@ -1,9 +1,9 @@
 package com.ypf.ccneed.service.impl;
 
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.ypf.ccneed.entity.Note;
 import com.ypf.ccneed.mapper.NoteMapper;
 import com.ypf.ccneed.service.INoteService;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
 /**

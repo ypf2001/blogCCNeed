@@ -1,7 +1,7 @@
 package com.ypf.ccneed.mapper;
 
-import com.ypf.ccneed.entity.Note;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.ypf.ccneed.entity.Note;
 
 /**
  * <p>
@@ -11,6 +11,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @author ypf
  * @since 2022-07-27
  */
+
 public interface NoteMapper extends BaseMapper<Note> {
 
 }

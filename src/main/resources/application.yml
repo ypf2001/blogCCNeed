@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: ccneed-demo1
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://1.117.229.165:3306/ccneed?serverTimezone=Asia/Shanghai
+    username: root
+    password: 2364555434
+  redis:
+    host: 1.117.229.165
+    password: 2364555434
+server:
+  port: 8082
+  max-http-header-size: 1024000
+

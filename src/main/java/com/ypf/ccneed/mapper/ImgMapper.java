@@ -1,7 +1,7 @@
 package com.ypf.ccneed.mapper;
 
-import com.ypf.ccneed.entity.Img;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.ypf.ccneed.entity.Img;
 
 /**
  * <p>

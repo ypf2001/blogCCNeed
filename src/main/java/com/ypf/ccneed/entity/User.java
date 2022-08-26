@@ -1,13 +1,16 @@
 package com.ypf.ccneed.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
-import java.io.Serializable;
-import java.time.LocalDateTime;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Getter;
 import lombok.Setter;
+
+import java.io.Serializable;
+import java.time.LocalDateTime;
+import java.util.List;
 
 /**
  * <p>
@@ -47,5 +50,10 @@ public class User implements Serializable {
 
     private LocalDateTime updateTime;
 
+    @TableField(exist = false)
+    private List<Img> imgList;
+
+    @TableField(exist = false)
+    private List<Video> videoList;
 
 }
